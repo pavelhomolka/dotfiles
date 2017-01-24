@@ -1,0 +1,11 @@
+*.py[co]
+.idea
+.env
+*.egg-info/
+.*.swp
+.cache
+.idea
+.env
+*.egg-info/
+.*.swp
+.cache
