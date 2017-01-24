@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+if tmux has-session; then
+	tmux -u attach
+else
+	tmux new-session -d -s home
+	tmux rename-window -t home Home
+	tmux split-window -h
+	tmux split-window -v
+	tmux select-pane -t 0
+	tmux -u attach-session -d -t home
+fi
