@@ -1,8 +1,14 @@
+" make vim incompatbile to vi
 set nocompatible
+set modelines=0
+
+" TAB settings
+set tabstop=2
+
+" common settings
 set number
 set ruler
 set cm=blowfish
-set tabstop=2
 set clipboard=unnamedplus
 
 " tabs
