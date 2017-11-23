@@ -43,8 +43,8 @@ filetype plugin indent on
 let g:ycm_server_python_interpreter = '/usr/bin/python2.7'
 let g:ycm_key_detailed_diagnostics  = '<F3>'
 let g:ycm_confirm_extra_conf        = 0
-let g:ycm_global_ycm_extra_conf     = "~/.vim/.ycm_extra_conf.py"
 
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 nnoremap <F2> :YcmDiags<CR>
-nnoremap <C-]> :YcmCompleter GoTo<CR>
+nnoremap <C-j> :YcmCompleter GoToDeclaration<CR>
+nnoremap <C-k> :YcmCompleter GoToDefinition <CR>
