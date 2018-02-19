@@ -10,6 +10,7 @@ set number
 set ruler
 set cm=blowfish
 set clipboard=unnamedplus
+set nowrap
 
 " changing leader key
 let mapleader = ","
