@@ -41,7 +41,7 @@ filetype plugin indent on
 " 1] cd ~ && mkdir ycm_build && cd ycm_build
 " 2] cmake -G "Unix Makefiles" -DUSE_SYSTEM_LIBCLANG=ON . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
 " 3] cmake --build . --target ycm_core
-let g:ycm_server_python_interpreter = '/usr/bin/python2.7'
+let g:ycm_server_python_interpreter = '/usr/bin/python'
 let g:ycm_key_detailed_diagnostics  = '<F3>'
 let g:ycm_confirm_extra_conf        = 0
 
